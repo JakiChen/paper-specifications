@@ -1,10 +1,10 @@
 {%- comment -%}根据语言环境加载所需的界面数据{%- endcomment -%}
-{%- if page.url contains '/en' -%}
-	{%- assign translate_lang = site.data.lang.en -%}
-	{%- assign PAGE_LANG = 'en' -%}
-{%- else -%}
+{%- if page.url contains '/cn' -%}
 	{%- assign translate_lang = site.data.lang.zh_CN -%}
 	{%- assign PAGE_LANG = 'zh-CN' -%}
+{%- else -%}
+	{%- assign translate_lang = site.data.lang.en -%}
+	{%- assign PAGE_LANG = 'en' -%}
 {%- endif -%}
 {%- comment -%}设置当前语言环境下的基地址{%- endcomment -%}
 {%- capture lang_baseurl -%}
