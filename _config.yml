@@ -28,7 +28,7 @@ author:
     email: paper@sizes.life
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://paper.sizes.life" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Blog
 blog:
