@@ -1,0 +1,2290 @@
+{
+	
+	"A 系列":[
+			{
+				"paperCat": "a-系列",
+				"paperName": "A0",
+				"sizex": "841",
+				"sizey": "1189",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A1",
+				"sizex": "594",
+				"sizey": "841",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A2",
+				"sizex": "420",
+				"sizey": "594",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A3",
+				"sizex": "297",
+				"sizey": "423",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A4",
+				"sizex": "210",
+				"sizey": "297",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A5",
+				"sizex": "148",
+				"sizey": "210",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A6",
+				"sizex": "105",
+				"sizey": "148",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A7",
+				"sizex": "74",
+				"sizey": "105",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A8",
+				"sizex": "52",
+				"sizey": "74",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A9",
+				"sizex": "37",
+				"sizey": "52",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A10",
+				"sizex": "26",
+				"sizey": "37",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A11",
+				"sizex": "18",
+				"sizey": "26",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A12",
+				"sizex": "13",
+				"sizey": "18",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A13",
+				"sizex": "9",
+				"sizey": "13",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "2A0",
+				"sizex": "1189",
+				"sizey": "1682",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "4A0",
+				"sizex": "1682",
+				"sizey": "2378",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A0+",
+				"sizex": "914",
+				"sizey": "1292",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A1+",
+				"sizex": "609",
+				"sizey": "914",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "a-系列",
+				"paperName": "A3+",
+				"sizex": "329",
+				"sizey": "483",
+				"boxWidth": "standard"
+			}
+				
+		],
+	"B 系列":[
+			{
+				"paperCat": "b-系列",
+				"paperName": "B0",
+				"sizex": "1000",
+				"sizey": "1414",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B1",
+				"sizex": "707",
+				"sizey": "1000",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B2",
+				"sizex": "500",
+				"sizey": "707",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B3",
+				"sizex": "353",
+				"sizey": "500",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B4",
+				"sizex": "250",
+				"sizey": "353",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B5",
+				"sizex": "176",
+				"sizey": "250",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B6",
+				"sizex": "125",
+				"sizey": "176",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B7",
+				"sizex": "88",
+				"sizey": "125",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B8",
+				"sizex": "62",
+				"sizey": "88",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B9",
+				"sizex": "44",
+				"sizey": "62",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B10",
+				"sizex": "31",
+				"sizey": "44",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B11",
+				"sizex": "22",
+				"sizey": "31",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B12",
+				"sizex": "15",
+				"sizey": "22",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B13",
+				"sizex": "11",
+				"sizey": "15",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B0+",
+				"sizex": "1118",
+				"sizey": "1580",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B1+",
+				"sizex": "720",
+				"sizey": "1020",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "b-系列",
+				"paperName": "B2+",
+				"sizex": "520",
+				"sizey": "720",
+				"boxWidth": "standard"
+			}
+				
+		],
+	"C 信封":[
+			{
+				"paperCat": "c-信封",
+				"paperName": "C0",
+				"sizex": "917",
+				"sizey": "1297",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "c-信封",
+				"paperName": "C1",
+				"sizex": "648",
+				"sizey": "917",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "c-信封",
+				"paperName": "C2",
+				"sizex": "458",
+				"sizey": "648",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "c-信封",
+				"paperName": "C3",
+				"sizex": "324",
+				"sizey": "458",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "c-信封",
+				"paperName": "C4",
+				"sizex": "229",
+				"sizey": "324",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "c-信封",
+				"paperName": "C7",
+				"sizex": "81",
+				"sizey": "114",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "c-信封",
+				"paperName": "C8",
+				"sizex": "57",
+				"sizey": "81",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "c-信封",
+				"paperName": "C9",
+				"sizex": "40",
+				"sizey": "57",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "c-信封",
+				"paperName": "C10",
+				"sizex": "28",
+				"sizey": "40",
+				"boxWidth": "standard"
+			}
+				
+		],
+	"RAW 系列":[
+			{
+				"paperCat": "raw-系列",
+				"paperName": "RA0",
+				"sizex": "860",
+				"sizey": "1220",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "RA1",
+				"sizex": "610",
+				"sizey": "860",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "RA2",
+				"sizex": "430",
+				"sizey": "610",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "RA3",
+				"sizex": "305",
+				"sizey": "430",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "RA4",
+				"sizex": "215",
+				"sizey": "305",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA0",
+				"sizex": "900",
+				"sizey": "1280",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA1",
+				"sizex": "640",
+				"sizey": "900",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA2",
+				"sizex": "450",
+				"sizey": "640",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA3",
+				"sizex": "320",
+				"sizey": "450",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA4",
+				"sizex": "225",
+				"sizey": "320",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA1+",
+				"sizex": "660",
+				"sizey": "920",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA2+",
+				"sizex": "480",
+				"sizey": "650",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA3+",
+				"sizex": "320",
+				"sizey": "460",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "SRA3++",
+				"sizex": "320",
+				"sizey": "464",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "A0U",
+				"sizex": "880",
+				"sizey": "1230",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "A1U",
+				"sizex": "625",
+				"sizey": "880",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "A2U",
+				"sizex": "450",
+				"sizey": "625",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "A3U",
+				"sizex": "330",
+				"sizey": "450",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "raw-系列",
+				"paperName": "A4U",
+				"sizex": "240",
+				"sizey": "330",
+				"boxWidth": "standard"
+			}
+				
+		],
+	"中国标准 (纸张)":[
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "D0",
+				"sizex": "764",
+				"sizey": "1064",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "D1",
+				"sizex": "532",
+				"sizey": "760",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "D2",
+				"sizex": "380",
+				"sizey": "528",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "D3",
+				"sizex": "264",
+				"sizey": "376",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "D4",
+				"sizex": "188",
+				"sizey": "260",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "D5",
+				"sizex": "130",
+				"sizey": "184",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "D6",
+				"sizex": "92",
+				"sizey": "126",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "RD0",
+				"sizex": "787",
+				"sizey": "1092",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "RD1",
+				"sizex": "546",
+				"sizey": "787",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "RD2",
+				"sizex": "393",
+				"sizey": "546",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "RD3",
+				"sizex": "273",
+				"sizey": "393",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "RD4",
+				"sizex": "196",
+				"sizey": "273",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "RD5",
+				"sizex": "136",
+				"sizey": "196",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "中国标准-(纸张)",
+				"paperName": "RD6",
+				"sizex": "98",
+				"sizey": "136",
+				"boxWidth": "standard"
+			}
+				
+		],
+	"书籍":[
+			{
+				"paperCat": "书籍",
+				"paperName": "Folio",
+				"sizex": "304.8",
+				"sizey": "482.6",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "Quarto",
+				"sizex": "241.3",
+				"sizey": "304.8",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "Imperial Octavo",
+				"sizex": "209.55",
+				"sizey": "292.1",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "Super Octavo",
+				"sizex": "177.8",
+				"sizey": "279.4",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "Royal Octavo",
+				"sizex": "165.1",
+				"sizey": "254",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "Medium Octavo",
+				"sizex": "165.1",
+				"sizey": "234.95",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "Octavo",
+				"sizex": "152.4",
+				"sizey": "228.6",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "Crown Octavo",
+				"sizex": "136.525",
+				"sizey": "203.2",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "12mo",
+				"sizex": "127",
+				"sizey": "187.325",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "16mo",
+				"sizex": "101.6",
+				"sizey": "171.45",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "18mo",
+				"sizex": "101.6",
+				"sizey": "165.1",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "32mo",
+				"sizex": "88.9",
+				"sizey": "139.7",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "48mo",
+				"sizex": "63.5",
+				"sizey": "101.6",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "64mo",
+				"sizex": "50.8",
+				"sizey": "76.2",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "A Format",
+				"sizex": "110",
+				"sizey": "178",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "B Format",
+				"sizex": "129",
+				"sizey": "198",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "书籍",
+				"paperName": "C Format",
+				"sizex": "135",
+				"sizey": "216",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"加拿大 (纸张)":[
+			{
+				"paperCat": "加拿大-(纸张)",
+				"paperName": "P1",
+				"sizex": "560",
+				"sizey": "860",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "加拿大-(纸张)",
+				"paperName": "P2",
+				"sizex": "430",
+				"sizey": "560",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "加拿大-(纸张)",
+				"paperName": "P3",
+				"sizex": "280",
+				"sizey": "430",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "加拿大-(纸张)",
+				"paperName": "P4",
+				"sizex": "215",
+				"sizey": "280",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "加拿大-(纸张)",
+				"paperName": "P5",
+				"sizex": "140",
+				"sizey": "215",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "加拿大-(纸张)",
+				"paperName": "P6",
+				"sizex": "107",
+				"sizey": "140",
+				"boxWidth": "standard"
+			}
+				
+		],
+	"名片":[
+			{
+				"paperCat": "名片",
+				"paperName": "ISO 216",
+				"sizex": "74",
+				"sizey": "52",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "名片",
+				"paperName": "US/Canada",
+				"sizex": "88.9",
+				"sizey": "50.8",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "名片",
+				"paperName": "Eropean",
+				"sizex": "85",
+				"sizey": "55",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "名片",
+				"paperName": "Scandianavia",
+				"sizex": "90",
+				"sizey": "55",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "名片",
+				"paperName": "China",
+				"sizex": "90",
+				"sizey": "54",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "名片",
+				"paperName": "Japan",
+				"sizex": "91",
+				"sizey": "55",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "名片",
+				"paperName": "Iran",
+				"sizex": "85",
+				"sizey": "48",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "名片",
+				"paperName": "ISO 7810 ID-1",
+				"sizex": "85.6",
+				"sizey": "54",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"哥伦比亚 (纸张)":[
+			{
+				"paperCat": "哥伦比亚-(纸张)",
+				"paperName": "Carta",
+				"sizex": "216",
+				"sizey": "279",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "哥伦比亚-(纸张)",
+				"paperName": "Extra Tabloide",
+				"sizex": "304",
+				"sizey": "457.2",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "哥伦比亚-(纸张)",
+				"paperName": "Oficio",
+				"sizex": "216",
+				"sizey": "330",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "哥伦比亚-(纸张)",
+				"paperName": "1/8 Pliego",
+				"sizex": "250",
+				"sizey": "350",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "哥伦比亚-(纸张)",
+				"paperName": "1/4 Pliego",
+				"sizex": "350",
+				"sizey": "500",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "哥伦比亚-(纸张)",
+				"paperName": "1/2 Pliego",
+				"sizex": "500",
+				"sizey": "700",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "哥伦比亚-(纸张)",
+				"paperName": "1/2 Pliego",
+				"sizex": "700",
+				"sizey": "1000",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"国际 (信封)":[
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "DL",
+				"sizex": "220",
+				"sizey": "110",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "B4",
+				"sizex": "353",
+				"sizey": "250",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "B5",
+				"sizex": "250",
+				"sizey": "176",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "B6",
+				"sizex": "176",
+				"sizey": "125",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "C3",
+				"sizex": "458",
+				"sizey": "324",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "C4",
+				"sizex": "324",
+				"sizey": "229",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "C5",
+				"sizex": "229",
+				"sizey": "162",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "C6/C5",
+				"sizex": "229",
+				"sizey": "114",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "C6",
+				"sizex": "162",
+				"sizey": "114",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "C7/C6",
+				"sizex": "162",
+				"sizey": "81",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "C7",
+				"sizex": "114",
+				"sizey": "81",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "国际-(信封)",
+				"paperName": "E4",
+				"sizex": "400",
+				"sizey": "280",
+				"boxWidth": "standard"
+			}
+				
+		],
+	"广告牌":[
+			{
+				"paperCat": "广告牌",
+				"paperName": "1 Sheet",
+				"sizex": "508",
+				"sizey": "762",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "2 Sheet",
+				"sizex": "762",
+				"sizey": "1016",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "4 Sheet",
+				"sizex": "1016",
+				"sizey": "1524",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "6 Sheet",
+				"sizex": "1200",
+				"sizey": "1800",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "12 Sheet",
+				"sizex": "3048",
+				"sizey": "1524",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "16 Sheet",
+				"sizex": "2032",
+				"sizey": "3048",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "32 Sheet",
+				"sizex": "4064",
+				"sizey": "3048",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "48 Sheet",
+				"sizex": "6096",
+				"sizey": "3048",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "64 Sheet",
+				"sizex": "8128",
+				"sizey": "3048",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "广告牌",
+				"paperName": "96 Sheet",
+				"sizex": "12192",
+				"sizey": "3048",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"报纸":[
+			{
+				"paperCat": "报纸",
+				"paperName": "Berliner",
+				"sizex": "315",
+				"sizey": "470",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Broadsheet",
+				"sizex": "597",
+				"sizey": "749",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "US Broadsheet",
+				"sizex": "381",
+				"sizey": "578",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "British Broadsheet",
+				"sizex": "375",
+				"sizey": "597",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "South African Broadsheet",
+				"sizex": "410",
+				"sizey": "578",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Ciner",
+				"sizex": "350",
+				"sizey": "500",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Compact",
+				"sizex": "280",
+				"sizey": "430",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Nordisch",
+				"sizex": "400",
+				"sizey": "570",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Rhenish",
+				"sizex": "350",
+				"sizey": "520",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Swiss",
+				"sizex": "320",
+				"sizey": "475",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Tabloid",
+				"sizex": "280",
+				"sizey": "430",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Canadian Tabloid",
+				"sizex": "260",
+				"sizey": "368",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Norwegian Tabloid",
+				"sizex": "280",
+				"sizey": "400",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "New York Times",
+				"sizex": "305",
+				"sizey": "559",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "报纸",
+				"paperName": "Wall Street Journal",
+				"sizex": "305",
+				"sizey": "578",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"日本 (纸张)":[
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB0",
+				"sizex": "1030",
+				"sizey": "1456",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB1",
+				"sizex": "728",
+				"sizey": "1030",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB2",
+				"sizex": "515",
+				"sizey": "728",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB3",
+				"sizex": "364",
+				"sizey": "515",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB4",
+				"sizex": "257",
+				"sizey": "364",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB5",
+				"sizex": "182",
+				"sizey": "257",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB6",
+				"sizex": "128",
+				"sizey": "182",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB7",
+				"sizex": "91",
+				"sizey": "128",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB8",
+				"sizex": "64",
+				"sizey": "91",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB9",
+				"sizex": "45",
+				"sizey": "64",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB10",
+				"sizex": "32",
+				"sizey": "45",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB11",
+				"sizex": "22",
+				"sizey": "32",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "JB12",
+				"sizex": "16",
+				"sizey": "22",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "Shiroku ban 4",
+				"sizex": "264",
+				"sizey": "379",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "Shiroku ban 5",
+				"sizex": "189",
+				"sizey": "262",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "Shiroku ban 6",
+				"sizex": "127",
+				"sizey": "188",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "Kiku 4",
+				"sizex": "227",
+				"sizey": "306",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "日本-(纸张)",
+				"paperName": "Kiku 5",
+				"sizex": "151",
+				"sizey": "227",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"法国 (纸张)":[
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Cloche",
+				"sizex": "300",
+				"sizey": "400",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Pot, écolier",
+				"sizex": "310",
+				"sizey": "400",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Tellière",
+				"sizex": "340",
+				"sizey": "440",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Couronne écriture",
+				"sizex": "360",
+				"sizey": "360",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Couronne édition",
+				"sizex": "370",
+				"sizey": "470",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Roberto",
+				"sizex": "390",
+				"sizey": "500",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Écu",
+				"sizex": "400",
+				"sizey": "520",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Coquille",
+				"sizex": "440",
+				"sizey": "560",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Carré",
+				"sizex": "450",
+				"sizey": "560",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Cavalier",
+				"sizex": "460",
+				"sizey": "620",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Demi-raisin",
+				"sizex": "325",
+				"sizey": "500",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Raisin",
+				"sizex": "500",
+				"sizey": "650",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Double Raisin",
+				"sizex": "650",
+				"sizey": "1000",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Jésus",
+				"sizex": "560",
+				"sizey": "760",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Soleil",
+				"sizex": "600",
+				"sizey": "800",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Colombier affiche",
+				"sizex": "600",
+				"sizey": "800",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Colombier commercial",
+				"sizex": "630",
+				"sizey": "900",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Petit Aigle",
+				"sizex": "700",
+				"sizey": "940",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Grand Aigle",
+				"sizex": "750",
+				"sizey": "1050",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Grand Monde",
+				"sizex": "900",
+				"sizey": "1260",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "法国-(纸张)",
+				"paperName": "Univers",
+				"sizex": "1000",
+				"sizey": "1130",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"照片":[
+			{
+				"paperCat": "照片",
+				"paperName": "2R",
+				"sizex": "64",
+				"sizey": "89",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "Passport",
+				"sizex": "35",
+				"sizey": "45",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "LD, DSC",
+				"sizex": "89",
+				"sizey": "119",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "3R, L",
+				"sizex": "89",
+				"sizey": "127",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "LW",
+				"sizex": "89",
+				"sizey": "133",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "KGD",
+				"sizex": "102",
+				"sizey": "136",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "4R, KG",
+				"sizex": "102",
+				"sizey": "152",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "2LD, DSCW",
+				"sizex": "127",
+				"sizey": "169",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "5R, 2L",
+				"sizex": "127",
+				"sizey": "178",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "2LW",
+				"sizex": "127",
+				"sizey": "190",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "6R",
+				"sizex": "152",
+				"sizey": "203",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "8R, 6P",
+				"sizex": "203",
+				"sizey": "254",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "S8R, 6PW",
+				"sizex": "203",
+				"sizey": "305",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "11R",
+				"sizex": "279",
+				"sizey": "356",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "照片",
+				"paperName": "A3+ Super B",
+				"sizex": "330",
+				"sizey": "483",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"美国 (信封)":[
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "6¼",
+				"sizex": "152",
+				"sizey": "89",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "6¾",
+				"sizex": "165",
+				"sizey": "92",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "7 ",
+				"sizex": "172",
+				"sizey": "95",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "7¾ Monarch",
+				"sizex": "191",
+				"sizey": "98",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "8⅝",
+				"sizex": "219",
+				"sizey": "92",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "9 ",
+				"sizex": "225",
+				"sizey": "98",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "10",
+				"sizex": "241",
+				"sizey": "104",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "11",
+				"sizex": "264",
+				"sizey": "114",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "12",
+				"sizex": "279",
+				"sizey": "121",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "14",
+				"sizex": "292",
+				"sizey": "127",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "16",
+				"sizex": "305",
+				"sizey": "152",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A1",
+				"sizex": "92",
+				"sizey": "130",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A2 Lady Grey",
+				"sizex": "146",
+				"sizey": "111",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A4",
+				"sizex": "159",
+				"sizey": "108",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A6 Thompson's Standard",
+				"sizex": "165",
+				"sizey": "121",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A7 Besselheim",
+				"sizex": "184",
+				"sizey": "133",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A8 Carr's",
+				"sizex": "206",
+				"sizey": "140",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A9 Diplomat",
+				"sizex": "222",
+				"sizey": "146",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A10 Willow",
+				"sizex": "241",
+				"sizey": "152",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "A Long",
+				"sizex": "225",
+				"sizey": "98",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "1 ",
+				"sizex": "229",
+				"sizey": "152",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "1¾",
+				"sizex": "241",
+				"sizey": "152",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "3 ",
+				"sizex": "254",
+				"sizey": "178",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "6 ",
+				"sizex": "267",
+				"sizey": "191",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "8 ",
+				"sizex": "286",
+				"sizey": "210",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "9¾",
+				"sizex": "286",
+				"sizey": "222",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "10½",
+				"sizex": "305",
+				"sizey": "229",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "12½",
+				"sizex": "318",
+				"sizey": "241",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "13½",
+				"sizex": "330",
+				"sizey": "254",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "14½",
+				"sizex": "368",
+				"sizey": "292",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "15",
+				"sizex": "381",
+				"sizey": "254",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "美国-(信封)",
+				"paperName": "15½",
+				"sizex": "394",
+				"sizey": "305",
+				"boxWidth": "standard"
+			}
+				
+		],
+	"美国 (纸张)":[
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Letter",
+				"sizex": "216",
+				"sizey": "279",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Legal",
+				"sizex": "216",
+				"sizey": "356",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Tabloid",
+				"sizex": "279",
+				"sizey": "432",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Ledger",
+				"sizex": "432",
+				"sizey": "279",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Junior Legal",
+				"sizex": "127",
+				"sizey": "203",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Half Letter",
+				"sizex": "140",
+				"sizey": "216",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Government Letter",
+				"sizex": "203",
+				"sizey": "267",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Government Legal",
+				"sizex": "216",
+				"sizey": "330",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Ansi A",
+				"sizex": "216",
+				"sizey": "279",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Ansi B",
+				"sizex": "279",
+				"sizey": "432",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Ansi C",
+				"sizex": "432",
+				"sizey": "559",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Ansi D",
+				"sizex": "559",
+				"sizey": "864",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Ansi E",
+				"sizex": "864",
+				"sizey": "1118",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Arch A",
+				"sizex": "229",
+				"sizey": "305",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Arch B",
+				"sizex": "305",
+				"sizey": "457",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Arch C",
+				"sizex": "457",
+				"sizey": "610",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Arch D",
+				"sizex": "610",
+				"sizey": "914",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Arch E",
+				"sizex": "914",
+				"sizey": "1219",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Arch E1",
+				"sizex": "762",
+				"sizey": "1067",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Arch E2",
+				"sizex": "660",
+				"sizey": "965",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "美国-(纸张)",
+				"paperName": "Arch E3",
+				"sizex": "686",
+				"sizey": "991",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"英制":[
+			{
+				"paperCat": "英制",
+				"paperName": "Antiquarian",
+				"sizex": "787",
+				"sizey": "1346",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Atlas",
+				"sizex": "660",
+				"sizey": "864",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Brief",
+				"sizex": "343",
+				"sizey": "406",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Broadsheet",
+				"sizex": "457",
+				"sizey": "610",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Cartridge",
+				"sizex": "533",
+				"sizey": "660",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Columbier",
+				"sizex": "597",
+				"sizey": "876",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Copy Draught",
+				"sizex": "406",
+				"sizey": "508",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Crown",
+				"sizex": "381",
+				"sizey": "508",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Demy",
+				"sizex": "445",
+				"sizey": "572",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Double Demy",
+				"sizex": "572",
+				"sizey": "902",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Quad Demy",
+				"sizex": "889",
+				"sizey": "1143",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Elephant",
+				"sizex": "584",
+				"sizey": "711",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Double Elephant",
+				"sizex": "678",
+				"sizey": "1016",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Emperor",
+				"sizex": "1219",
+				"sizey": "1829",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Foolscap",
+				"sizex": "343",
+				"sizey": "432",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Small Foolscap",
+				"sizex": "337",
+				"sizey": "419",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Grand Eagle",
+				"sizex": "730",
+				"sizey": "1067",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Imperial",
+				"sizex": "559",
+				"sizey": "762",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Medium",
+				"sizex": "470",
+				"sizey": "584",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Monarch",
+				"sizex": "184",
+				"sizey": "267",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Post",
+				"sizex": "394",
+				"sizey": "489",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Sheet, Half Post",
+				"sizex": "795",
+				"sizey": "597",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Pinched Post",
+				"sizex": "375",
+				"sizey": "470",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Large Post",
+				"sizex": "394",
+				"sizey": "508",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Double Large Post",
+				"sizex": "533",
+				"sizey": "838",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Double Post",
+				"sizex": "483",
+				"sizey": "762",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Pott",
+				"sizex": "318",
+				"sizey": "381",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Princess",
+				"sizex": "546",
+				"sizey": "711",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Quarto",
+				"sizex": "229",
+				"sizey": "279",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Royal",
+				"sizex": "508",
+				"sizey": "635",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英制",
+				"paperName": "Super Royal",
+				"sizex": "483",
+				"sizey": "686",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"英国传统 (纸张)":[
+			{
+				"paperCat": "英国传统-(纸张)",
+				"paperName": "Dukes",
+				"sizex": "140",
+				"sizey": "178",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英国传统-(纸张)",
+				"paperName": "Foolscap",
+				"sizex": "203",
+				"sizey": "330",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英国传统-(纸张)",
+				"paperName": "Imperial",
+				"sizex": "178",
+				"sizey": "229",
+				"boxWidth": "wide"
+			},
+			{
+				"paperCat": "英国传统-(纸张)",
+				"paperName": "Kings",
+				"sizex": "165",
+				"sizey": "203",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "英国传统-(纸张)",
+				"paperName": "Quarto",
+				"sizex": "203",
+				"sizey": "254",
+				"boxWidth": "wide"
+			}
+				
+		],
+	"过渡时期 (纸张)":[
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA0",
+				"sizex": "840",
+				"sizey": "1120",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA1",
+				"sizex": "560",
+				"sizey": "840",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA2",
+				"sizex": "420",
+				"sizey": "560",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA3",
+				"sizex": "280",
+				"sizey": "420",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA4",
+				"sizex": "210",
+				"sizey": "280",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA5",
+				"sizex": "140",
+				"sizey": "210",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA6",
+				"sizex": "105",
+				"sizey": "140",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA7",
+				"sizex": "70",
+				"sizey": "105",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA8",
+				"sizex": "52",
+				"sizey": "70",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "PA9",
+				"sizex": "35",
+				"sizey": "52",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "Pa10",
+				"sizex": "26",
+				"sizey": "35",
+				"boxWidth": "medium"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F0",
+				"sizex": "841",
+				"sizey": "1321",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F1",
+				"sizex": "660",
+				"sizey": "841",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F2",
+				"sizex": "420",
+				"sizey": "660",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F3",
+				"sizex": "330",
+				"sizey": "420",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F4",
+				"sizex": "210",
+				"sizey": "330",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F5",
+				"sizex": "165",
+				"sizey": "210",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F6",
+				"sizex": "105",
+				"sizey": "165",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F7",
+				"sizex": "82",
+				"sizey": "105",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F8",
+				"sizex": "52",
+				"sizey": "82",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F9",
+				"sizex": "41",
+				"sizey": "52",
+				"boxWidth": "standard"
+			},
+			{
+				"paperCat": "过渡时期-(纸张)",
+				"paperName": "F10",
+				"sizex": "26",
+				"sizey": "41",
+				"boxWidth": "standard"
+			}
+				
+		]
+	
+}
