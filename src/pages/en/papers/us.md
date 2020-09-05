@@ -1,6 +1,6 @@
 ---
 layout: page
-title: US Paper Size Paper Size
+title: US Paper Size
 description: >
  
 permalink: /en/us/
