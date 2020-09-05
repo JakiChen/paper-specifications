@@ -33,7 +33,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Blog
 blog:
     name: PaperSpec
-    google_analytics: "UA-162031185-2"
+    google_analytics: "UA-166822615-2"
     last_modified_at: 2020-06-15 12:58:30
     theme: shade-dark # two themes opt. (`shade-dark` & `shade-light`), four colors opt. (`pallette-grey`,`pallette-black`,`pallette-yellow`,`pallette-blue`)
 
