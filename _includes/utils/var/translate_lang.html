@@ -1,0 +1,24 @@
+{%- comment -%}根据语言环境加载所需的界面数据{%- endcomment -%}
+{%- if page.url contains '/en' -%}
+	{%- assign translate_lang = site.data.lang.en -%}
+	{%- assign PAGE_LANG = 'en' -%}
+{%- else -%}
+	{%- assign translate_lang = site.data.lang.zh_CN -%}
+	{%- assign PAGE_LANG = 'zh-CN' -%}
+{%- endif -%}
+{%- comment -%}设置当前语言环境下的基地址{%- endcomment -%}
+{%- capture lang_baseurl -%}
+	{%- assign lang_baseurl = "/cn" -%}
+	{%- if page.url contains '/en' -%}/en{%- else -%}/cn{%- endif -%}
+{%- endcapture-%}
+{%- comment -%}设置纸张数据涞源{%- endcomment -%}
+{%- assign POSTS = site.cn -%}
+{%- if translate_lang.lang == "ENG" -%}	
+	{%- assign POSTS = site.en -%}
+{%- endif -%}
+{%- comment -%}翻译表格数据{%- endcomment -%}
+{%- assign F = translate_lang.table.format -%}
+{%- assign W = translate_lang.table.width -%}
+{%- assign H = translate_lang.table.height -%}
+{%- assign M = translate_lang.table.mm -%}
+{%- assign I = translate_lang.table.in -%}

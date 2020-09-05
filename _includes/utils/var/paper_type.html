@@ -1,0 +1,84 @@
+{%- include utils/var/translate_lang.html -%}
+{%- assign ptype_handel = page.paper_type -%}
+{%- case ptype_handel -%}
+	{%- when 'a' -%}
+		{%- assign paper_title = translate_lang.paper_type.a.title -%}
+		{%- assign further_title = translate_lang.paper_type.a.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.a.further_info -%}
+	{%- when 'b' -%}
+		{%- assign paper_title = translate_lang.paper_type.b.title -%}
+		{%- assign further_title = translate_lang.paper_type.b.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.b.further_info -%}
+	{%- when 'billboard' -%}
+		{%- assign paper_title = translate_lang.paper_type.billboard.title -%}
+		{%- assign further_title = translate_lang.paper_type.billboard.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.billboard.further_info -%}
+	{%- when 'books' -%}
+		{%- assign paper_title = translate_lang.paper_type.books.title -%}
+		{%- assign further_title = translate_lang.paper_type.books.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.books.further_info -%}
+	{%- when 'business_card' -%}
+		{%- assign paper_title = translate_lang.paper_type.business_card.title -%}
+		{%- assign further_title = translate_lang.paper_type.business_card.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.business_card.further_info -%}
+	{%- when 'c' -%}
+		{%- assign paper_title = translate_lang.paper_type.c.title -%}
+		{%- assign further_title = translate_lang.paper_type.c.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.c.further_info -%}
+	{%- when 'canadian' -%}
+		{%- assign paper_title = translate_lang.paper_type.canadian.title -%}
+		{%- assign further_title = translate_lang.paper_type.canadian.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.canadian.further_info -%}
+	{%- when 'chinese' -%}
+		{%- assign paper_title = translate_lang.paper_type.chinese.title -%}
+		{%- assign further_title = translate_lang.paper_type.chinese.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.chinese.further_info -%}
+	{%- when 'colombian' -%}
+		{%- assign paper_title = translate_lang.paper_type.colombian.title -%}
+		{%- assign further_title = translate_lang.paper_type.colombian.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.colombian.further_info -%}
+	{%- when 'french' -%}
+		{%- assign paper_title = translate_lang.paper_type.french.title -%}
+		{%- assign further_title = translate_lang.paper_type.french.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.french.further_info -%}
+	{%- when 'imperial' -%}
+		{%- assign paper_title = translate_lang.paper_type.imperial.title -%}
+		{%- assign further_title = translate_lang.paper_type.imperial.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.imperial.further_info -%}
+	{%- when 'intl_envelope' -%}
+		{%- assign paper_title = translate_lang.paper_type.intl_envelope.title -%}
+		{%- assign further_title = translate_lang.paper_type.intl_envelope.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.intl_envelope.further_info -%}
+	{%- when 'japanese' -%}
+		{%- assign paper_title = translate_lang.paper_type.japanese.title -%}
+		{%- assign further_title = translate_lang.paper_type.japanese.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.japanese.further_info -%}
+	{%- when 'newspaper' -%}
+		{%- assign paper_title = translate_lang.paper_type.newspaper.title -%}
+		{%- assign further_title = translate_lang.paper_type.newspaper.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.newspaper.further_info -%}
+	{%- when 'photography' -%}
+		{%- assign paper_title = translate_lang.paper_type.photography.title -%}
+		{%- assign further_title = translate_lang.paper_type.photography.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.photography.further_info -%}
+	{%- when 'raw' -%}
+		{%- assign paper_title = translate_lang.paper_type.raw.title -%}
+		{%- assign further_title = translate_lang.paper_type.raw.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.raw.further_info -%}
+	{%- when 'traditional_british' -%}
+		{%- assign paper_title = translate_lang.paper_type.traditional_british.title -%}
+		{%- assign further_title = translate_lang.paper_type.traditional_british.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.traditional_british.further_info -%}
+	{%- when 'transitional' -%}
+		{%- assign paper_title = translate_lang.paper_type.transitional.title -%}
+		{%- assign further_title = translate_lang.paper_type.transitional.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.transitional.further_info -%}
+	{%- when 'us' -%}
+		{%- assign paper_title = translate_lang.paper_type.us.title -%}
+		{%- assign further_title = translate_lang.paper_type.us.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.us.further_info -%}
+	{%- when 'us_envelope' -%}
+		{%- assign paper_title = translate_lang.paper_type.us_envelope.title -%}
+		{%- assign further_title = translate_lang.paper_type.us_envelope.further_title -%}
+		{%- assign further_info = translate_lang.paper_type.us_envelope.further_info -%}
+{%- endcase -%}

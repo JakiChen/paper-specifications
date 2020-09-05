@@ -1,0 +1,27 @@
+{%- comment -%} 参数接口 `pfilter`, 利用此参数筛选出所有同类型纸张数据 {%- endcomment -%}
+{%- assign sortedPaers = POSTS | where: "type", pfilter | sort: "index" -%}
+{%- for pSeries in sortedPaers -%}
+	{%- comment -%} 通过 `class_name` 设置列表使用类名 {%- endcomment -%}
+	{%- assign title_size = pSeries.info.name | size -%}
+	{%- capture class_name -%}
+		{%- if title_size > 1 and title_size < 4 -%}
+			{{ 'standard' }}
+		{%- elsif title_size >= 4 and title_size < 6 -%}
+			{{ 'medium' }}
+		{%- else -%}
+			{{ 'wide' }}
+		{%- endif -%}
+	{%- endcapture -%}
+	{%- comment -%} 获得 `PAPER_NAME` 所需格式,  通过 `pname` 传参运算 {%- endcomment -%}
+	{%- assign pname = pSeries.info.name -%}
+	{%- include utils/capture/paper.name.html -%}
+	<a class="{{ class_name | prepend: 'paper ' }}" href="{{ pSeries.url }}">
+		<span class="title">{{ PAPER_NAME }}</span>
+		<span class="sizes">
+			<em data-x="{{ pSeries.info.width }}" data-y="{{ pSeries.info.height }}">
+				{{ ' x ' | prepend: pSeries.info.width | append: pSeries.info.height }}
+			</em>
+			<span>{{ pSeries.info.unit }}</span>
+		</span>
+	</a>
+{%- endfor -%}

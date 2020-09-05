@@ -1,0 +1,36 @@
+{%- include utils/var/paper_type.html -%}
+
+
+<div role="main" id="main">
+	<div class="main-content">
+		<section class="container-wide stacked-paper">
+			<div class="main-padding">
+				<h1 class="underlined capitalize">{{ paper_title }}</h1>
+			</div>
+			{%- comment -%} 罗列出该系列所有格式 {%- endcomment -%}
+			<div class="paper-containner-small">
+				{%- assign pfilter = page.type -%}
+				{% include moudle/control.paper.type.filter.html %}
+			</div>
+		</section>
+
+		<section class="main-padding">
+			<h5 class="underlined">{{ further_title }}</h5>
+			<div class="half-col">
+				<div class="paper-description">
+					{{ further_info }}
+				</div>
+				{%- comment -%} 该系列所有尺寸表格打印输出 {%- endcomment -%}
+				{%- include moudle/control.paper.type.all.table.html -%}
+			</div>
+
+			<div class="half-col table-col">
+				{%- comment -%} 该系列SVG图像 {%- endcomment -%}
+				{%- include moudle/control.paper.graph.html -%}
+			</div>
+		</section>
+		{%- comment -%} carbonad 广告推荐 {%- endcomment -%}
+		{%- include moudle/advertising.carbonad.html -%}
+	</div>
+
+</div>

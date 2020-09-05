@@ -1,0 +1,118 @@
+{% include utils/var/head_seo.html %}
+<meta charset="UTF-8" />
+<title>{{ PAGE_TITLE }}</title>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="{{ PAGE_DESCRIPTION }}" />
+<meta name="keywords" content="{{ PAGE_KEYWORDS }}">
+<meta name="author" content="{{ site.author.name }}">
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="canonical" href="{{ PAGE_URL }}" />
+<!-- Open Graph: Facebook,linkedIn etc. -->
+<meta property="og:locale" content="{{ PAGE_LOCALE }}" />
+<meta property="og:type" content="{{ PAGE_TYPE }}" />
+<meta property="og:title" content="{{ PAGE_TITLE }}" />
+<meta property="og:description" content="{{ PAGE_DESCRIPTION }}" />
+<meta property="og:url" content="{{ PAGE_URL }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:image" content="{{ "/src/assets/img/paperspec-social.png" | prepend: site.url }}"/>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<meta property="article:modified_time" content="{{ PAGE_MODIFIDATE }}" />
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" class="yoast-schema-graph">
+{
+    "@context": "https://schema.org",
+    "@graph": [{
+        "@type": "Organization",
+        "@id": "{{ site.url }}/#organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "sameAs": [{{ site.social.links | join:',' }}],
+        "logo": {
+            "@type": "ImageObject",
+            "@id": "{{ site.url }}/#logo",
+            "inLanguage": "{{ site.blog.lang }}",
+            "url": "{{ '/src/assets/img/social/paperspec_logo.png' | prepend: site.url }}",
+            "width": 228,
+            "height": 221,
+            "caption": "{{ site.title }}"
+        },
+        "image": {
+            "@id": "{{ site.url }}/#logo"
+        }
+    }, {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "{{ site.author.name }}",
+        "description": "{{ site.description }}",
+        "publisher": {
+            "@id": "{{ site.url }}/#organization"
+        },
+        "potentialAction": [{
+            "@type": "SearchAction",
+            "target": "{{ site.url }}/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }],
+        "inLanguage": "{{ site.blog.lang }}"
+    }, {
+        "@type": "WebPage",
+        "@id": "{{ page.url | prepend: site.url }}#webpage",
+        "url": "{{ page.url | prepend: site.url }}",
+        "name": "{{ PAGE_TITLE }}",
+        "isPartOf": {
+            "@id": "{{ site.url }}/#website"
+        },
+        "about": {
+            "@id": "{{ lang_baseurl | prepend: site.url | append: '/about/'}}#organization"
+        },
+        "datePublished": "{{ PAGE_PUBDATE }}",
+        "dateModified": "{{ PAGE_MODIFIDATE }}",
+        "description": "{{ PAGE_DESCRIPTION }}",
+        "inLanguage": "{{ site.blog.lang }}",
+        "potentialAction": [{
+            "@type": "ReadAction",
+            "target": ["{{ site.url }}/"]
+        }]
+    }]
+}
+</script>
+<!-- WebMaster Verification -->
+<meta name="google-site-verification" content="{{ site.webmaster_verifications.google }}" />
+<meta name="baidu-site-verification" content="{{ site.webmaster_verifications.baidu }}" />
+<meta name="msvalidate.01" content="{{ site.webmaster_verifications.bing }}" />
+<meta name="yandex-verification" content="{{ site.webmaster_verifications.yandex }}" />
+<meta name="alexaVerifyID" content="{{ site.webmaster_verifications.alexa }}" />
+<!-- Stylesheets -->
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,700,500' rel='stylesheet' type='text/css'>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
+<link rel="stylesheet" 
+	  href="{{ '/src/assets/css/main.css' | relative_url }}"
+	  type="text/css" 
+	  medial="all" />
+<!-- Favicons -->
+<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/src/assets/icon/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/src/assets/icon/favicon-32x32.png' | relative_url }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ '/src/assets/icon/favicon-16x16.png' | relative_url }}" sizes="16x16">
+<link rel="manifest" href="{{ '/src/assets/icon/manifest.json' | relative_url }}">
+<link rel="mask-icon" href="{{ '/src/assets/icon/safari-pinned-tab.svg' | relative_url }}" color="#666666 ">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+{%- comment -%}
+<meta name="msapplication-TileImage" content="">
+<meta name="msapplication-config" content="{{ "wp-content/assets/img/icons/browserconfig.xml" | relative_url }}">
+{%- endcomment -%}
+<!-- Javascript -->
+{%- if page.url contains '/compare' -%}
+    {%- include utils/compare.libs.css.html -%}
+{%- endif -%}
+<script type="text/javascript" 
+		src="{{ '/src/assets/js/vendor/modernizr-2.8.3.min.js' | relative_url }}" >
+</script>
+{% include externals/hotjar.html %}

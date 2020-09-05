@@ -1,0 +1,9 @@
+<div class="main-padding">
+	<h4 class="underlined">
+		{% if translate_lang.lang = "ENG" %}
+			All <span class="capitalize">{{ page.type | capitalize }}</span> Series Paper Sizes
+			{% elseif translate_lang.lang = "中文" %}
+			所有 <span class="capitalize">{{ page.type | capitalize }}</span> 纸张尺寸规格
+		{% endif %}
+	</h4>
+</div>

@@ -1,0 +1,52 @@
+---
+permalink: /src/assets/data/en/paperpages.json
+---
+{
+	{% assign ptype = site.data.lang.en.header.paper_type | sort: 'type' %}
+	{% for paper in  ptype %}
+
+		{%- capture ptype_name -%}
+			{%- if paper.type contains 'Intl.' -%}
+					{{ paper.type | replace: 'Intl.', 'International'}}
+				{%- else -%}
+					{{ paper.type }}
+			{%- endif -%}
+		{%- endcapture -%}
+		{%- comment -%} 获取纸张分类数据 {%- endcomment -%}
+		"{{ ptype_name }}":[
+			{% assign pfilter = ptype_name | downcase %}
+			{%- assign sorted_Paers = site.en | where: "type", pfilter | sort: "index" -%}
+			{%- for pinfo in sorted_Paers -%}
+			{
+				{%- assign pname = pinfo.info.name -%}
+				{%- assign title_size = pinfo.info.name.size -%}
+				{%- include utils/capture/paper.name.html -%}
+				{%- capture c -%}
+					{{ pinfo.type | split: ' ' | join: '-' | downcase }}
+				{%- endcapture -%}
+				{%- capture width -%}
+					{{ pinfo.info.width }}
+				{%- endcapture -%}
+				{%- capture height -%}
+					{{ pinfo.info.height }}
+				{%- endcapture -%}
+				{%- capture className -%}
+					{%- assign title_size = pinfo.info.name | size -%}
+					{%- if title_size > 1 and title_size < 4 -%}
+					{{ 'standard' }}
+					{%- elsif title_size >= 4 and title_size < 6 -%}
+					{{ 'medium' }}
+					{%- else -%}
+					{{ 'wide' }}
+					{%- endif -%}
+				{% endcapture %}
+				"paperCat": "{{ c }}",
+				"paperName": "{{ PAPER_NAME }}",
+				"sizex": "{{ width }}",
+				"sizey": "{{ height }}",
+				"boxWidth": "{{ className }}"
+			}{% unless forloop.last %},{% endunless %}
+			{% endfor %}	
+		]{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+}

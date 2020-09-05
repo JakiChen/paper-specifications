@@ -1,0 +1,14 @@
+<div class="lang-dropdown text dropdown">
+	<a href="#" class="toggle lang-label">{{ translate_lang.lang }}</a>
+	<ul>
+		{% assign lang_handle = translate_lang.lang %}
+		{% case lang_handle %}
+			{% when '中文' %}
+				<li><a href="{{ page.url }}">中文</a></li>
+				<li><a href="{{ page.url | remove: '/cn' | prepend: '/en' }}">ENG</a></li>
+			{% when 'ENG' %}
+				<li><a href="{{ page.url | remove: '/en' | prepend: '/cn'  }}">中文</a></li>
+				<li><a href="{{ page.url }}">ENG</a></li>
+		{% endcase %}
+	</ul>
+</div>

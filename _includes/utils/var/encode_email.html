@@ -1,0 +1,15 @@
+{%- assign words = item.description | split: " " -%}
+{%- for word in words -%}
+	{%- assign is_email = word | regex_replace: "([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+", "**EMAIL**" -%}
+	{%- if is_email contains "**EMAIL**" -%}
+		{%- assign endchar = word | slice: -1 -%}
+			{%- if endchar == "." or endchar == ";" -%}
+					{{ word | split: "" | reverse | slice: 1, 1000 | reverse | join: "" | create_mailto_link }}
+					{{ word | slice: -1 }}
+				{%- else -%}
+					{{ word | create_mailto_link }}
+			{%- endif -%}
+		{%- else -%}
+			{{ word }}
+	{%- endif -%}
+{%- endfor -%}

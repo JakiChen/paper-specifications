@@ -1,0 +1,48 @@
+{%- include utils/var/translate_lang.html -%}
+<script tupe="text/javascript" src="/src/assets/js/vendor/jquery-1.12.0.min.js"></script>
+{%- if page.url contains '/compare' -%}
+	{%- include utils/compare.libs.js.html -%}
+{%- endif -%}
+<div id="fb-root"></div>
+<script>
+	(function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+<footer class="main-footer">
+	<div class="footer-inner">
+		<nav>
+			<ul>
+				<li>&copy; <span class="currdate">{{ 'now' | date: "%Y" }}</span>&nbsp;{{ site.blog.name }}</li>
+				<li><a href="{{ '/about' | prepend: lang_baseurl }}">{{ translate_lang.footer.about }}</a></li>
+				<li><a href="{{ '/privacy-policy' | prepend: lang_baseurl }}">{{ translate_lang.footer.privacy }}</a></li>
+				{%- comment -%}
+				{%- for social in translate_lang.footer.social -%}
+				<li><a href="{{ social.link }}">{{ social.title }}</a></li>
+				{%- endfor -%}
+				{%- endcomment -%}
+			</ul>
+		</nav>
+
+		<div class="footer-social">
+			<div class="fb-share-button" data-href="http://www.papersizes.io" data-layout="button" data-size="small"
+				data-mobile-iframe="true">
+				<a class="fb-xfbml-parse-ignore" target="_blank"
+					href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.papersizes.io%2F&amp;src=sdkpreparse">Share</a>
+			</div>
+
+			<a href="https://twitter.com/share" class="twitter-share-button"
+				data-text="A simple, free resource for finding International standards for paper sizes"
+				data-show-count="false">Tweet</a>
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="{{ lang_baseurl | prepend: '/src/assets/js/min' | append: '/scripts.js' }}"></script>
+{% include externals/google_analytics.html %}

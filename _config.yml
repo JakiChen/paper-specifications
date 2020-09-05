@@ -1,0 +1,86 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Paper Spec.
+description: >
+ 
+keywords: []
+
+author:
+    name: PaperSpec
+    email: paper@sizes.life
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Blog
+blog:
+    name: PaperSpec
+    google_analytics: "UA-162031185-2"
+    last_modified_at: 2020-06-15 12:58:30
+    theme: shade-dark # two themes opt. (`shade-dark` & `shade-light`), four colors opt. (`pallette-grey`,`pallette-black`,`pallette-yellow`,`pallette-blue`)
+
+# Collections
+collections:
+    articles:
+        articles: true
+        output: true
+    cn:
+        cn: true
+        output: true
+    en:
+        en: true
+        output: true
+
+collections_dir: src
+
+# Compress CSS
+sass:
+    style: compressed
+
+# Plugin
+plugins:
+    - jekyll-sitemap
+
+social:
+    name: PaperSpec
+    links:
+        - '"https://behance.net/PaperSpec"'
+        - '"https://www.linkedin.com/in/PaperSpec"'
+        - '"https://github.com/PaperSpec"'
+        - '"https://behance.net/PaperSpec"'
+
+webmaster_verifications:
+    google: google
+    bing: bing
+    alexa: alexa
+    yandex: yandex
+    baidu: baidu
+
+# Cmopress html
+compress_html:
+    clippings: all
+    comments: ["<!-- ", " -->"]
+    ignore:
+        envs: [local]
+    blanklines: false
+    profile: false
+    startings: [html, head, body]
+#

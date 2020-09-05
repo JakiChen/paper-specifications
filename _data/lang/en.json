@@ -1,0 +1,341 @@
+{
+	"title": "Paper Spec.",
+	"lang": "ENG",
+	"about": {
+		"info": "The best resource for International Paper Sizes, Dimensions & Formats.",
+		"hotjar_id": "1975748",
+		"description": "A simple, free resource for finding the international standards for paper sizes in metric and imperial.",
+		"kewords": ""
+	},
+	"paper_fullname": {
+		"a": "A Paper Sizes",
+		"b": "B Paper Sizes",
+		"c": "C Envelope Paper Sizes",
+		"us": "US Paper Sizes",
+		"us_envelope": "US Envelope Paper Sizes",
+		"intel_envelope": "International Envelope Paper Sizes",
+		"photography": "Photography Paper Sizes",
+		"newspaper": "Newspaper Paper Sizes",
+		"books": "Books Paper Sizes",
+		"business_card": "Business Card Paper Sizes",
+		"raw": "Raw Paper Sizes",
+		"billlboard": "Billboard Paper Sizes",
+		"french": "French Paper Sizes",
+		"japanese": "Japanese Paper Sizes",
+		"canadian": "Canadian Paper Sizes",
+		"colombian": "Colombian Paper Sizes",
+		"chinses": "Chinese Paper Sizes",
+		"imperial": "Imperial Paper Sizes",
+		"traditional_british": "Traditional British Paper Sizes",
+		"transitional": "Transitional Paper Sizes"
+	},
+	"header": {
+		"compare": "Compare",
+		"unit": [
+			{
+				"class": "mm",
+				"info": "mm"
+			},
+			{
+				"class": "cm",
+				"info": "cm"
+			},
+			{
+				"class": "m",
+				"info": "m"
+			},
+			{
+				"class": "inches",
+				"info": "inches"
+			},
+			{
+				"class": "points",
+				"info": "pt"
+			},
+			{
+				"class": "pica",
+				"info": "pc"
+			},
+			{
+				"class": "pixels",
+				"info": "px @300ppi"
+			}
+		],
+		"paper_type": [
+			{
+				"url": "/en/a",
+				"type": "A"
+			},
+			{
+				"url": "/en/b",
+				"type": "B"
+			},
+			{
+				"url": "/en/c-envelope",
+				"type": "C"
+			},
+			{
+				"url": "/en/us",
+				"type": "US"
+			},
+			{
+				"url": "/en/us-envelope",
+				"type": "US Envelope"
+			},
+			{
+				"url": "/en/international-envelope",
+				"type": "Intl. Envelope"
+			},
+			{
+				"url": "/en/photography",
+				"type": "Photography"
+			},
+			{
+				"url": "/en/canadian",
+				"type": "Canadian"
+			},
+			{
+				"url": "/en/japanese",
+				"type": "Japanese"
+			},
+			{
+				"url": "/en/books",
+				"type": "Books"
+			},
+			{
+				"url": "/en/business-card",
+				"type": "Business Card"
+			},
+			{
+				"url": "/en/newspaper",
+				"type": "Newspaper"
+			},
+			{
+				"url": "/en/chinese",
+				"type": "Chinese"
+			},
+			{
+				"url": "/en/billboard",
+				"type": "Billboard"
+			},
+			{
+				"url": "/en/imperial",
+				"type": "Imperial"
+			},
+			{
+				"url": "/en/colombian",
+				"type": "Colombian"
+			},
+			{
+				"url": "/en/french",
+				"type": "French"
+			},
+			{
+				"url": "/en/raw",
+				"type": "RAW"
+			},
+			{
+				"url": "/en/transitional",
+				"type": "Transitional"
+			},
+			{
+				"url": "/en/traditional-british",
+				"type": "Traditional British"
+			}
+		],
+		"more": "More"
+	},
+	"footer": {
+		"about": "About",
+		"privacy": "Privacy &amp; Cookie Policy",
+		"social": [
+			{
+				"title": "Behance",
+				"link": ""
+			},
+			{
+				"title": "Github",
+				"link": ""
+			},
+			{
+				"title": "LinkedIn",
+				"link": ""
+			}
+		]
+	},
+	"control": {
+		"view_all": "View All"
+	},
+	"compare": {
+		"label_title": "Paper Size Comparison Tool",
+		"label_cunit": "Change Unit",
+		"label_compare": "Compare:",
+		"label_with": "With:"
+	},
+	"paper_type": {
+		"a": {
+			"title": "A Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The dimensions of the A series paper sizes are defined by the ISO 216 international paper size standard. The A series was adopted in Europe in the 19th century, and is currently used all around the world, apart from in the USA and Canada. The most common paper size used in English speaking countries around the world is A4, which is 210mm x 297mm (8.27 inches x 11.7 inches). The largest sheet from the A series is the A0 size of paper. It has an area of 1m<sup>2</sup>, and the dimensions are 841mm x 1189mm. The A series uses an aspect ratio of 1:√2, and other sizes in the series are defined by folding the paper in half, parallel to its smaller sides. For example, cutting an A4 in half, will create an two A5 sheets, and so forth. Any size of brochure can be made using paper from the next larger size, for example A3 sheets are folded to make A4 brochures. The standard lengths and widths of the A series are rounded to the nearest millimetre.</p>"
+			]
+		},
+		"b": {
+			"title": "B Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The dimensions of the B series paper sizes are defined by the ISO 216 international paper size standard. The B series is not as common as the A series. It was created to provide paper sizes that were not included in the A series.The B series uses an aspect ratio of 1:√2. The area of the B series paper sheets is the geometric mean of the A series sheets. For example, B1 is between A0 and A1 in size. While the B series is less common in office use, it is more regularly used in other special situations, such as posters, books, envelopes and passports.</p>"
+			]
+		},
+		"billboard": {
+			"title": "Billboard Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>A billboard (or a hoarding) is a large structure used for advertising, and is usually placed outdoors in areas where there is a lot of traffic, such as busy roads. Billboards are used to advertise products to passing pedestriansand drivers, and are very effective, due to their size and positioning in designated market areas. Billboards have many standard sizes, and the names of the billboards originate from the old days when posters were made up ofa specific number of panels. Popular billboard sizes start from ‘1 Sheet’ which is 508mm x 762mm, and one of the largest is ‘96 Sheet’ which is 12192mm x 3048mm (40ft x 10ft). The largest standard sized billboard is known as a Bulletin, and is 48ft x 14ft.</p>"
+			]
+		},
+		"books": {
+			"title": "Books Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>There are a series of common terms to describe the sizes of modern books. These range from folio, which is the largest, to quarto, and octavo, which are respectively smaller. Book sizes are usually measured by the height and width of a leaf, or the height and width of its cover. The size and proportions of a book depends on the size of the original sheet of paper that was used to produce the book. The most common book sizes today are octavo and quarto. However, many books are still produced in larger and smaller sizes. There are some other terms for book sizes. These include elephant folio (up to 23 inches tall), atlas folio (25 inches tall), and a double elephant folio (50 inches tall). The B-format, such as the Penguin Classics, are 129mm by 198mm, which are a common paperback size in the UK.</p>"
+			]
+		},
+		"business_card": {
+			"title": "Business Card Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The standard business card size used in Europe is 85mm x 55mm, which is a similar size to banking cards, making them easier to store. The standard business card size in the US and Canada is 3.5 inches x 2 inches (89mm x 51mm). It is fairly common nowadays to move away from the traditional rectangular business card, and be more creative by having square and rounded rectangular shapes. The business card based on the ISO 216 standard is the same size as A8 which is 74mm x 52mm.</p>"
+			]
+		},
+		"c": {
+			"title": "C Envelope Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The standard business card size used in Europe is 85mm x 55mm, which is a similar size to banking cards, making them easier to store. The standard business card size in the US and Canada is 3.5 inches x 2 inches (89mm x 51mm). It is fairly common nowadays to move away from the traditional rectangular business card, and be more creative by having square and rounded rectangular shapes. The business card based on the ISO 216 standard is the same size as A8 which is 74mm x 52mm.</p>"
+			]
+		},
+		"canadian": {
+			"title": "Canadian Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The dimensions of the Canadian series paper sizes are defined by the CAN 2-9.60M Canadian paper size standard. These canadian paper sizes are the US ANSI paper sizes rounded to the nearest 5mm. The P series includes paper sizes P1 to P6, which corresponds to the ANSI A,B,C and D, as well as two additional sizes smaller than ANSI A. The sizes now appear to be no longer used and are obsolete. The Canadian P series doesn’t have a single aspect ratio like the ISO standard sizes, which makes enlarging and reducing the sizes harder. The Canadian P series are also occasionally referred to as PA1, PA2 etc.</p>"
+			]
+		},
+		"chinese": {
+			"title": "Chinese Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The dimensions of the Chinese series paper sizes are defined by the GB/T 148-1997 Chinese paper size standard. This standard documents the ISO series, but it does not follow the same principles. Originating from the Republic of China, 1912-1949, the Chinese format is a custom series known as the D series. It is different from the D Series in Sweden. The aspect ratio is approximately √2. The longest side of a Chinese D Series is exactly two times larger than the short side of the next smallest size.</p>"
+			]
+		},
+		"colombian": {
+			"title": "Colombian Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The dimensions of the Colombian series paper sizes are based on ISO B1 (707mm x 1000mm), which is referred to as pliego. These paper sizes are most commonly used for industrial and commercial printing. A fraction prefix is added for smaller sizes which are halved, e.g ½ pliego, ¼ pliego and ⅛ pliego. Other Colombian paper sizes include Carta, Oficio and Extra Tabloide.</p>"
+			]
+		},
+		"french": {
+			"title": "French Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>In 1967 France started using the ISO paper size standard. However before this, France had their own paper size system. The paper formats in this system follow the AFNOR standard which was established in 1926. Some of these paper formats are still used today. When the paper is handcrafted, they are branded with watermarks. The watermarks are where the names of the paper come from. Some of the formats are known as double and quadruple versions. An example of a double version is Carré (450mm x 560mm) and Grande Monde (900mm x 1260mm), whereby the smallest side is doubled. An example of a quadruple version is Cloche (300mm x 400mm) and Soleil (600mm x 800mm), whereby both sides are doubled.</p>"
+			]
+		},
+		"imperial": {
+			"title": "Imperial Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>Before the United Kingdom adopted the ISO 216 standard, British Imperial paper sizes were used. The Imperial paper sizes were used to define large sheets of paper, and the naming convention was derived from the sheet name, and how many times it was folded. For example ‘Royal’ paper is 508mm x 635mm, and when it is folded three times, it makes 8 sheets and goes by the name ‘Royal Octavo’ which is 253 mm x 158 mm. This is a name given to modern hardbound books.</p>"
+			]
+		},
+		"intl_envelope": {
+			"title": "International Envelope Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The standard envelope sizes are defined by the international standard ISO 269. They are generally designed to be used with paper sizes that follow the ISO 216 standard. The most commonly used envelope sizes are from the C series. An A4 piece of paper will fit into a C4 envelope. The DL envelope has a different aspect ratio to the C series, which is why it does not appear in that series. The DL envelope is the most common envelope used in business. DL is short for ‘Dimension Lengthwise’, however it was previously known as DIN Lang in Germany where it originated in the 1920s. An A4 sheet of paper folded three times, parallel to its smaller sides, will fit into a DL envelope.</p>"
+			]
+		},
+		"japanese": {
+			"title": "Japanese Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The Japanese Industrial Standards (JIS), defines two main series of paper sizes. They are the JIS A Series, and the JIS B Series. Both of the these series are widely available in Japan, as well as China and Taiwan. The JIS A Series is exactly the same as the ISO A Series, but with different tolerances. Both the JIS A Series and the JIS B Series have the same aspect ratio, but the area of the B Series paper is 1.5 times larger than the A Series. As well as the JIS A and B Series, there are a number of traditional Japanese paper sizes used mostly by printers. These include Shiroku-ban and Kiku, which are the most commonly used.</p>"
+			]
+		},
+		"newspaper": {
+			"title": "Newspaper Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>There are many different newspaper formats, and they vary from country to country. The largest newspaper format is known as a Broadsheet, and takes its name from types of popular prints which are usually just on a single sheet containing different types of material and content. A broadsheet is known for having long vertical pages. Other popular newspaper formats include the Berliner and Tabloid, which are smaller than a Broadsheet.</p>"
+			]
+		},
+		"photography": {
+			"title": "Photography Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>Standard photographic sizes are often named with a format ‘nR’, where the number ‘n’ represents the length of the shortest side in inches. In the normal series, the longest side is the length of the shortest side plus 2 inches, when it is 10 inches or less. When it is 11 inches and above, 3 inches is added to the shortest side. There is an alternative Super series, which is named with a format ‘SnR’. This series has an aspect ratio of approximately 3:2. The aspect ratios of photographic prints tend to vary, so exact scaling of prints is not always a possibility. The Japanese photographic standard are the same print sizes, but are known by different names. For example, the Japanese L corresponds to 3R, while 2L matches 5R.</p>"
+			]
+		},
+		"raw": {
+			"title": "Raw Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The dimensions of the RAW series paper sizes are defined by the ISO 217:1995 paper size standard. The format consists of the RA series and the SRA series. RA stands for ‘Raw Format A’, and SRA stands for ‘Supplementary Raw Format A’. The untrimmed raw paper is used for commercial printing, and as it is slightly larger than the A series format, it allows the ink to bleed to the edge of the paper, before being cut to match the A format.</p>"
+			]
+		},
+		"traditional_british": {
+			"title": "Traditional British Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>When the United Kingdom started using ISO sizes, the traditional paper sizes were no longer commonly used. Most of the traditional sizes were used in the production of books, and were never used for other stationery purposes. ‘Folio’ or ‘Foolscap’ is an alias for Foolscap Folio, as is ‘Kings’ being an alias for ‘Foolscap Quarto’.</p>"
+			]
+		},
+		"transitional": {
+			"title": "Transitional Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>The transitional paper size formats consist of the PA Series and the F Series. The PA Series proposed to be included into the ISO 216 standard in 1975. They were rejected by the committee who decided that the number of standardised paper formats should be kept to a minimum. However this series is still used today, in particular PA4 (or L4). Its width is that of the ISO standard A4, and height of Canadian P4 (210mm x 280mm). The PA4 format can easily be printed on equipment designed for A4 or US Letter size, which is why it is used by many international magazines, and is a good solution as the format of presentation slides. PA4 is more of a page format than a paper size. It has a 4:3 aspect ratio when in landscape orientation.</p>",
+
+				"<p>In Southeast Asia, a common size used is the non-standard F4. The longer side is 330mm, which is the same as the British Foolscap. The shorter side is 210mm, which is the same as the ISO A4. The F4 is occasionally known as (metric) Foolscap or Folio.</p>"
+			]
+		},
+		"us": {
+			"title": "US Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>Loose Sizes<br>Paper sizes in North America do not follow a logical system like the ISO standard does. They have their own system that they follow. This means that scaling the paper sizes is more difficult. The US Letter paper size is the most popular size used throughout the US. It is also commonly used in Chile and the Philippines.</p>",
+
+				"<p>ANSI<br>The American National Standards Institute (ANSI) adopted ANSI/ASME Y14.1, which defined a series of paper sizes in 1996, based on the standard 8.5 inches x 11 inches (216mm x 279mm) Letter size, which was named ‘ANSI A’. This series is fairly similar to the ISO standard, in that if you cut a sheet in half, you will product two sheets of the next smaller size. Ledger/Tabloid is known as ‘ANSI B’. The most common and widely used size is ANSI A, also known as ‘Letter’.</p>",
+
+				"<p>Architectural Sizes<br>The Architectural series (ARCH) is used by architects in North America, and they prefer to use this series instead of ANSI, because the aspect ratios are ratios of smaller whole numbers (4:3 and 3:2). The ARCH series of paper sizes is defined in the ANSI/ASME Y14.1 standard. The ARCH sizes are commonly used by architects for their large format drawings.</p>"
+			]
+		},
+		"us_envelope": {
+			"title": "US Envelope Paper Sizes",
+			"further_title": "Further Information",
+			"further_info": [
+				"<p>There are three main types of envelopes used in the US and they do not correspond to the ISO standard of paper sizes. They are known as Commercial, Announcement and Catalog. Other less known styles of envelope are Baronial, Booklet and Square. To identify the difference between a ISO size and the US size, a hyphen is often inserted between the letter and number. For example, A2 becomes A-2.</p>",
+
+				"<p>Commercial envelopes, also referred to as Office envelopes, are most commonly used in business situations as they are suitable for automated franking and filling. They are long and thin, with an aspect ration of between 1:1.6 and 1:2.2. The most well known commercial envelope is No.10, as it is able to fit Letter size paper folded three times, or Legal size paper folded four times parallel to the shorter side.</p>",
+
+				"<p>Announcement envelopes, also known as A series envelopes, are used for greeting cards, invitations and photographs. Their aspect ratio ranges between 1:1.3 to 1:1.6, which makes them more of a square shape, rather than long and thin like the Commercial envelopes. The most popular announcement envelopes are Lady Grey (A2) and Diplomat (A9).</p>",
+
+				"<p>Catalog envelopes are most commonly used for catalogs, brochures, and are made with a center seam to make them more durable.Their aspect ratio ranges between 1:1.3 and 1:1.5, making them very similar shape to the announcement envelopes.</p>"
+			]
+		}
+	},
+	"404": {
+		"title": "Page Not Found",
+		"message": "We can't seem to find the page you are looking for. It has either been removed or does not exist.",
+		"link": "Return to home page"
+	},
+	"table": {
+		"format": "Format",
+		"width": "width",
+		"height": "height",
+		"mm": "mm",
+		"in": "in"
+	}
+}

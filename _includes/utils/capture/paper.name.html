@@ -1,0 +1,29 @@
+{%- comment -%} 
+ 参数接口 `pname` , eg. {% assign pname = page.info.name %} 转换标题样式 
+ 弱参 `title_size`, opt
+{%- endcomment -%}
+{%- capture PAPER_NAME -%}
+	{%- if pname contains '1/' -%}
+		{{ pname | capitalize_all }}
+	{%- else -%}
+		{%- if pname contains 'US/C' -%}
+				{{ pname }}
+			{%- elsif pname contains 'shiroku' or pname contains 'é' or pname contains 'colombier' -%}
+				{{ pname | capitalize }}
+			{%- elsif pname contains 'us' -%}
+				{{ pname | capitalize_all | replace: 'Us', 'US' }}
+			{%- elsif pname contains 'sheet,' -%}
+				{{ pname | capitalize_all }}
+			{%- else -%}
+				{%- if pname contains '/' or pname contains 'iso' or pname contains ',' or pname contains 'jb' or pname contains 'sra' -%}
+					{{ pname | upcase }}
+				{%- else -%}
+					{%- if title_size > 1 and title_size <= 3 -%}
+						{{ pname | upcase }}
+					{%- else -%}
+						{{ pname | capitalize_all }}
+					{%- endif -%}
+				{%- endif -%}
+		{%- endif -%}
+	{%- endif -%}
+{%- endcapture -%}

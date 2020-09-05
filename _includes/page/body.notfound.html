@@ -1,0 +1,16 @@
+{%- include utils/var/translate_lang.html -%}
+
+
+<div role="main" id="main">
+	<div class="main-content">
+		<section class="main-padding container-wide">
+			<h5 class="underlined">{{ translate_lang.404.title }}</h5>
+			<div class="paper-description">
+				<h1 class='huge'>Oops!</h1>
+				<h2 class='content-heading'>{{ translate_lang.404.message }}</h2>
+				<p><a href="{{ site.url | append: lang_baseurl }}">{{ translate_lang.404.link }}</a></p>
+			</div>
+		</section>
+		{% include moudle/advertising.carbonad.html %}
+	</div>
+</div>

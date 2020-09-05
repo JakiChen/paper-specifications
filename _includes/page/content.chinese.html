@@ -1,0 +1,18 @@
+<div class="main-padding">
+	<h2 class="underlined capitalize link-title">
+		<a href="{{ '/chinese' | prepend: lang_baseurl }}">{{ translate_lang.paper_fullname.chinese }}</a>
+	</h2>
+</div>
+<div class="scroll-container">
+	<div class="paper-container home-container">
+		{%- case translate_lang.lang -%}
+		{%- when '中文' -%}
+		{%- assign pfilter = '中国标准 (纸张)'-%}
+		{%- when 'ENG' -%}
+		{%- assign pfilter = 'chinese'-%}
+		{%- endcase -%}
+		{%- include moudle/control.paper.type.filter.html -%}
+		{%- assign current_paperurl = '/a' -%}
+		{%- include moudle/control.viewall.html -%}
+	</div>
+</div>

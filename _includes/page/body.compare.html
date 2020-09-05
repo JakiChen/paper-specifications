@@ -1,0 +1,82 @@
+{%- include utils/var/translate_lang.html -%}
+
+
+<div role="main" id="main">
+	<div class="main-content">
+		<section class="main-padding container-wide">
+			<h1 class="underlined capitalize">{{ translate_lang.compare.label_title }}</h1>
+			<div>
+				<div class="compare-paper-pickers">
+					<div class="compare-paper-picker">
+						<h2 class="capitalize link-title picker-title">{{ translate_lang.compare.label_compare }}</h2>
+						<div class="picker-wrapper picker-1" data-picker="1">
+
+							<div class="picker-category">
+								<select class="js-compare-categories" name="state"
+									style="display: block!important; height: auto!important;">
+								</select>
+							</div>
+
+							<div class="picker-paper">
+								<select class="js-compare-papers" name="state">
+								</select>
+							</div>
+
+						</div>
+						<div>
+							<div>
+								<hr class="paper-key-line paper-key-line-1">
+								<div data-x="" data-y="" class="paper-key-label paper-key-1"></div>
+								<span class="unit compare-unit unit-1"></span>
+								{%- include moudle/control.change.unit.html -%}
+							</div>
+						</div>
+					</div>
+
+					<div class="compare-paper-picker">
+						<h2 class="capitalize link-title picker-title">{{ translate_lang.compare.label_with }}</h2>
+
+						<div class="picker-wrapper picker-2" data-picker="2">
+							<div class="picker-category">
+								<select class="js-compare-categories" name="state" data-cat-dropdown="1">
+								</select>
+							</div>
+
+							<div class="picker-paper">
+								<select class="js-compare-papers" name="state">
+								</select>
+							</div>
+						</div>
+						<div>
+							<div>
+								<hr class="paper-key-line paper-key-line-2">
+								<div data-x="" data-y="" class="paper-key-label paper-key-2"></div>
+								<span class="unit compare-unit unit-2"></span>
+								<div class="unit-dropdown dropdown">
+									<a href="#" class="toggle unit-label">{{ translate_lang.compare.label_cunit }}</a>
+									{%- include moudle/control.dropdown.unit.html -%}
+								</div>
+							</div>
+						</div>
+						
+					</div>
+
+				</div>
+			</div>
+
+			<div class="compare-diagram-container">
+				<div>
+					<svg version="1.1" id="papersvg" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="0" height="0"
+						viewBox="0 0 0 0" xml:space="preserve">
+						<rect id="paper-solid" vector-effect="non-scaling-stroke" x="0" y="0" width="0" height="0">
+						</rect>
+						<rect id="paper-dashed" vector-effect="non-scaling-stroke" x="0" y="0" width="0" height="0">
+						</rect>
+					</svg>
+				</div>
+			</div>
+			{%- include moudle/advertising.carbonad.html -%}
+		</section>
+	</div>
+</div>

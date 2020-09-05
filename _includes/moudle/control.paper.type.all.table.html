@@ -1,0 +1,26 @@
+<div class="paper-table">
+	<table>
+		<thead>
+			<tr>
+				<th>{{ F }}</th>
+				<th>{{ W }} × {{ H }} ({{M}})</th>
+				<th>{{ W }} × {{ H }} ({{ I }})</th>
+			</tr>
+		</thead>
+		<tbody>
+			{%- assign pfilter = page.type -%}
+			{%- assign sortedPaers = POSTS | where: "type", pfilter | sort: "index" -%}
+			{%- for pSeries in sortedPaers -%}
+			{%- comment -%} 获得 `PAPER_NAME` 所需格式,  通过 `pname` 传参运算 {%- endcomment -%}
+			{%- assign pname = pSeries.info.name -%}
+			{%- include utils/capture/paper.name.html -%}
+			<tr>
+				<td>{{ PAPER_NAME }}</td>
+				<td>{{ " × " | prepend: pSeries.info.width | append: pSeries.info.height }}&nbsp;{{ M }}</td>
+				<td>{{ pSeries.info.width | divided_by: 25.4 | round: 1 }} ×
+					{{ pSeries.info.height | divided_by: 25.4 | | round: 1 }}&nbsp;{{ I }}</td>
+			</tr>
+			{%- endfor -%}
+		</tbody>
+	</table>
+</div>

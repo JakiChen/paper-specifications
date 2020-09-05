@@ -1,0 +1,18 @@
+<div class="main-padding">
+	<h2 class="underlined capitalize link-title">
+		<a href="{{ '/raw' | prepend: lang_baseurl }}">{{ translate_lang.paper_fullname.raw }}</a>
+	</h2>
+</div>
+<div class="scroll-container">
+	<div class="paper-container home-container">
+		{%- case translate_lang.lang -%}
+		{%- when '中文' -%}
+		{%- assign pfilter = 'raw 系列'-%}
+		{%- when 'ENG' -%}
+		{%- assign pfilter = 'raw'-%}
+		{%- endcase -%}
+		{%- include moudle/control.paper.type.filter.html -%}
+		{%- assign current_paperurl = '/a' -%}
+		{%- include moudle/control.viewall.html -%}
+	</div>
+</div>

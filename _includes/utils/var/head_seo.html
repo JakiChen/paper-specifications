@@ -1,0 +1,86 @@
+{%- capture PAGE_TITLE -%}
+    {%- if page.title == 'home' -%}
+        {{ " | " | prepend: site.title | append: translate_lang.about.info }}
+    {%- elsif page.title == 'Compare' -%}
+        {{ site.title }} | {{ translate_lang.header.compare | capitalize }}
+    {%- elsif page.layout == 'page' -%}
+        {%- assign page_title = page.title -%}
+        {%- capture page_subtitle -%}
+            {%- assign pfilter = page.type -%}
+            {%- assign sortedPaers = POSTS | where: "type", pfilter | sort: "index" -%}
+            {%- for pSeries in sortedPaers -%}
+                {%- assign pname = pSeries.info.name -%}
+                {%- assign title_size = pSeries.info.name.size -%}
+                {%- include utils/capture/paper.name.html -%}
+                {{ PAPER_NAME }}{%- unless forloop.last -%}{{ ", " }}{%- endunless -%}
+            {%- endfor -%}
+        {%- endcapture -%}
+        {{ " | " | prepend: page_title | append: page_subtitle }}
+    {%- else -%}
+        {{ site.title }} | {{ page.title | strip_html }}
+    {%- endif -%}
+{%- endcapture -%}
+{%- capture PAGE_DESCRIPTION -%}
+    {%- if page.description != '' -%}
+            {{ page.description | strip_html | strip_newlines | truncate: 160 | xml_to_xmlschema}}
+        {%- elsif page.layout == 'page' and page.description == '' -%}
+            {%- capture page_description -%}
+                {%- assign pfilter = page.type -%}
+                {%- assign sortedPaers = POSTS | where: "type", pfilter | sort: "index" -%}
+                {%- for pSeries in sortedPaers -%}
+                    {%- assign pname = pSeries.info.name -%}
+                    {%- assign title_size = pSeries.info.name.size -%}
+                    {%- include utils/capture/paper.name.html -%}
+                    {{ PAPER_NAME }}{%- unless forloop.last -%}{{ ", " }}{%- endunless -%}
+                {%- endfor -%}
+            {%- endcapture -%}
+            {%- if translate_lang.lang == 'ENG' -%}
+                Listing all the {{ page.title | downcase }}, metric and imperial - {{ page_description }}
+            {%- elsif translate_lang.lang == '中文' -%}
+                所有 {{ page.title | downcase }}( 公制与英制 ) - {{ page_description }}
+            {%- endif -%}
+        {%- else -%}
+            {{ translate_lang.about.description | truncate: 160 }}
+    {%- endif -%}
+{%- endcapture -%}
+{%- capture PAGE_KEYWORDS -%}
+    {%- capture keywords -%}
+        {%- assign pfilter = page.type -%}
+        {%- assign sortedPaers = POSTS | where: "type", pfilter | sort: "index" -%}
+        {%- for pSeries in sortedPaers -%}
+            {%- assign pname = pSeries.info.name -%}
+            {%- assign title_size = pSeries.info.name.size -%}
+            {%- include utils/capture/paper.name.html -%}
+            {%- if translate_lang.lang == 'ENG' -%}
+                {{ PAPER_NAME }}{%- unless forloop.last -%}{{ " Paper Size, " }}{%- endunless -%}
+            {%- elsif translate_lang.lang == '中文' -%}
+                {{ PAPER_NAME }}{%- unless forloop.last -%}{{ "纸张尺寸, " }}{%- endunless -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endcapture -%}
+    {{ keywords }}
+{%- endcapture -%}
+{%- capture PAGE_URL -%}
+    {{ page.url | replace:'index.html','' | prepend: site.url }}
+{%- endcapture -%}
+{%- capture PAGE_TYPE -%}
+    {%- if page.url contains '/views' -%}article{%- else -%}website{%- endif -%}
+{%- endcapture -%}
+{%- capture PAGE_PUBDATE -%}
+    {%- if page.date -%}
+        {{page.date}}
+    {%- else -%}
+        {{ site.time | date_to_xmlschema }}
+    {%- endif -%}
+{%- endcapture -%}
+{%- capture PAGE_MODIFIDATE -%}
+    {%- if page.last_modified_at -%}
+        {{ page.last_modified_at | date: date_format }}
+    {%- else -%}
+        {%- if page.date -%}
+            {{ page.date }}
+        {%- else -%}
+            {{ site.time | date_to_xmlschema }}
+        {%- endif -%}
+    {%- endif -%}
+{%- endcapture -%}

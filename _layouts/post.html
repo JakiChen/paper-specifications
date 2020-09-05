@@ -1,0 +1,110 @@
+---
+layout: compress
+---
+{%- include utils/var/translate_lang.html -%}
+
+<!DOCTYPE html>
+<html lang="{{ PAGE_LANG }}">
+<head>
+	{%- include main/head.html -%}
+</head>
+<body class="filter-open shade-dark" data-papertype="{{ page.type | upcase }}">
+	{%- include page/header.html -%}
+	{%- include page/paper.filter.html -%}
+	<div role="main" id="main">
+		<div class="main-content main-content-no-padding">
+
+			<section class="main-details main-padding">
+				<h1 class="underlined capitalize">{{ page.title }}</h1>
+				<div class="details-wrapper">
+					<div class="details-info-container">
+						{%- comment -%} 获得 `PAPER_NAME` 所需格式,  通过 `pname` 传参运算 {%- endcomment -%}
+						{%- assign pname = page.info.name -%}
+						{%- assign title_size = page.info.name.size -%}
+						{%- include utils/capture/paper.name.html -%}
+						<h1 class="standard">{{ PAPER_NAME }}</h1>
+						<div class="details-title">
+							<div class="preview">
+								<div class="outline" 
+									data-outline-x="{{ page.info.width }}" 
+									data-outline-y="{{ page.info.height }}">
+								</div>
+							</div>
+							<h2>
+								<em data-x="{{ page.info.width }}" data-y="{{ page.info.height }}">
+									{{ ' x ' | prepend: page.info.width | append: page.info.height }}
+								</em>
+								<span class="unit">{{ page.info.unit }}</span>
+							</h2>
+							{%- include moudle/control.change.unit.html -%}
+							{%- capture compare_info -%}
+								{%- assign pcategory = page.type | split: ' ' | join: '-' -%}
+								{%- capture pname -%}
+									{%- assign e = page.info.name -%}
+									{%- if e contains 'US/C' -%}
+											{{ e | downcase | remove: '/' }}
+										{%- elsif e contains '½' -%}
+											{{ e | downcase | replace: '½', '-12' }}
+										{%- elsif e contains '1/2' or e contains '1/8' or e contains '1/4' -%}
+											{{ e | downcase | remove: '/' | split: ' ' | join: '-' }}
+										{%- elsif e contains '¾ ' -%}
+											{{ e | downcase | replace: '¾ ', '-34-' }}
+										{%- elsif e contains '¾' -%}
+											{{ e | downcase | replace: '¾', '-34' }}
+										{%- elsif e contains '⅝' -%}
+											{{ e | downcase | remove: '⅝' | append: '-58' }}
+										{%- elsif e contains '¼' -%}
+											{{ e | downcase | replace: '¼', '-14' }}
+										{%- elsif e contains ', é' -%}
+											{{ e | downcase | replace: ', é', '-e' }}
+										{%- elsif e contains ' é' -%}
+											{{ e | downcase | replace: ' é', '-e' }}
+										{%- elsif e contains 'è' -%}
+											{{ e | downcase | replace: 'è', 'e' }}
+										{%- elsif e contains 'é' -%}
+											{{ e | downcase | replace: 'é', 'e' }}
+										{%- elsif e contains "thompson's" -%}
+											{{ e | downcase | replace: "thompson's", 'thompsons' | split: ' ' | join: '-' }}
+										{%- elsif e contains ', ' -%}
+											{{ e | downcase | replace: ", ", '-' }}
+										{%- else -%}
+											{{ e | split: ' ' | join: '-' | split: '/' | join: '-' | downcase }}
+									{%- endif -%}
+								{%- endcapture -%}
+								?c1={{ pcategory }}&p1={{ pname }}
+							{%- endcapture -%}
+							<a href="{{ '/compare' | prepend: lang_baseurl | append: compare_info }}"
+								class="details-compare">
+								{{ translate_lang.header.compare }}
+							</a>
+						</div>
+					</div>
+					{%- include moudle/advertising.details.page.html -%}
+				</div>
+
+				<div class="details-paragraph">
+					{{ content }}
+				</div>
+			</section>
+
+			<section class="container-wide stacked-paper">
+				<div class="main-padding">
+					<h4 class="underlined">
+						{%- if translate_lang.lang == "ENG" -%}
+							All <span class="capitalize">{{ page.type | capitalize }}</span> Series Paper Sizes
+						{%- elsif translate_lang.lang == "中文" -%}
+							所有<span class="capitalize">{{ page.type | capitalize | split: ' '}}</span>纸张尺寸规格
+						{%- endif -%}
+					</h4>
+				</div>
+				<div class="paper-containner-small">
+					{%- assign pfilter = page.type -%}
+					{% include moudle/control.paper.type.filter.html %}
+				</div>
+			</section>
+
+		</div>
+	</div>
+	{%- include page/footer.html -%}
+</body>
+</html>

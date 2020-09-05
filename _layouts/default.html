@@ -1,0 +1,17 @@
+---
+layout: compress
+---
+{%- include utils/var/translate_lang.html -%}
+
+<!DOCTYPE html>
+<html lang="{{ PAGE_LANG }}">
+<head>
+	{% include main/head.html %}
+</head>
+<body class="filter-open {{ site.blog.theme }}">
+	{% include page/header.html %}
+	{% include page/paper.filter.html %}
+	{{ content }}
+	{% include page/footer.html%}
+</body>
+</html>

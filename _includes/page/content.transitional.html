@@ -1,0 +1,18 @@
+<div class="main-padding">
+	<h2 class="underlined capitalize link-title">
+		<a href="{{ '/transitional' | prepend: lang_baseurl }}">{{ translate_lang.paper_fullname.transitional }}</a>
+	</h2>
+</div>
+<div class="scroll-container">
+	<div class="paper-container home-container">
+		{%- case translate_lang.lang -%}
+		{%- when '中文' -%}
+		{%- assign pfilter = '过渡时期 (纸张)'-%}
+		{%- when 'ENG' -%}
+		{%- assign pfilter = 'transitional'-%}
+		{%- endcase -%}
+		{%- include moudle/control.paper.type.filter.html -%}
+		{%- assign current_paperurl = '/a' -%}
+		{%- include moudle/control.viewall.html -%}
+	</div>
+</div>

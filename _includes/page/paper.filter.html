@@ -1,0 +1,17 @@
+<div class="paper-filter">
+	<div class="filter-container">
+		<nav class="filter">
+			<div class="filter-wrapper ov-hidden">
+				<ul>
+					{% for ptype in translate_lang.header.paper_type %}
+					<li><a href="{{ ptype.url }}" class="{{ ptype.url | remove: '/cn/' | remove: '/en/' |prepend: 'link-' }}">{{ ptype.type }}</a></li>
+					{% endfor %}
+					<li class="more-btn">
+						<span>{{ translate_lang.header.more }}</span>
+						<ul class="more-list"></ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>

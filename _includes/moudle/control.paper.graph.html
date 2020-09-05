@@ -1,0 +1,43 @@
+{%- assign pgraph_handel = page.paper_type -%}
+{%- case pgraph_handel -%}
+	{%- when 'a' -%}
+		{%- include moudle/graph/ptype.a.html -%}
+	{%- when 'b' -%}
+		{%- include moudle/graph/ptype.b.html -%}
+	{%- when 'billboard' -%}
+		{%- include moudle/graph/ptype.billboard.html -%}
+	{%- when 'books' -%}
+		{%- include moudle/graph/ptype.books.html -%}
+	{%- when 'business-card' -%}
+		{%- include moudle/graph/ptype.business-card.html -%}
+	{%- when 'c' -%}
+		{%- include moudle/graph/ptype.c.html -%}
+	{%- when 'canadian' -%}
+		{%- include moudle/graph/ptype.canadian.html -%}
+	{%- when 'chinese' -%}
+		{%- include moudle/graph/ptype.chinese.html -%}
+	{%- when 'colombian' -%}
+		{%- include moudle/graph/ptype.colombian.html -%}
+	{%- when 'french' -%}
+		{%- include moudle/graph/ptype.french.html -%}
+	{%- when 'imperial' -%}
+		{%- include moudle/graph/ptype.imperial.html -%}
+	{%- when 'intl-envelope' -%}
+		{%- include moudle/graph/ptype.intl-envelope.html -%}
+	{%- when 'japanese' -%}
+		{%- include moudle/graph/ptype.japanese.html -%}
+	{%- when 'newspaper' -%}
+		{%- include moudle/graph/ptype.newspaper.html -%}
+	{%- when 'photography' -%}
+		{%- include moudle/graph/ptype.photography.html -%}
+	{%- when 'raw' -%}
+		{%- include moudle/graph/ptype.raw.html -%}
+	{%- when 'traditional-british' -%}
+		{%- include moudle/graph/ptype.traditional-british.html -%}
+	{%- when 'transitional' -%}
+		{%- include moudle/graph/ptype.transitional.html -%}
+	{%- when 'us' -%}
+		{%- include moudle/graph/ptype.us.html -%}
+	{%- when 'us-envelope' -%}
+		{%- include moudle/graph/ptype.us-envelope.html -%}
+{%- endcase -%}
